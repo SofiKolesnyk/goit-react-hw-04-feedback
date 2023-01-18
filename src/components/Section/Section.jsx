@@ -16,7 +16,6 @@ const Section = ({children, title}) => {
         overflow: 'hidden',
       }}>
         <h3 style={{
-          alignSelf: 'stretch',
           marginBottom: 20,
         }}>{title}</h3>
         {children}
